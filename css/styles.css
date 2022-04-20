@@ -1,0 +1,26 @@
+.page{
+    color: #757575;
+}
+.logo{
+
+}
+ul{
+    list-style: none;
+}
+/*Site nav*/
+.site-nav .link{
+    color: #212121;
+}
+.section-title{
+    color: #212121;
+}
+/*Hero*/
+
+/*Features*/
+.features-title{
+    color: #212121;
+}
+/*Adress*/
+.adress .link{
+    color: #FFFFFF;
+}
