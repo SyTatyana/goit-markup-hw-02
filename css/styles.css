@@ -1,5 +1,19 @@
+/*Main colors*/
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-background-color:#FFFFFF;
+    --secondary-background-color: #E5E5E5;
+}
+/*Common settings*/
 .page{
-    color: #757575;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+/*Header*/
+.header{
+
 }
 .logo{
 
@@ -8,12 +22,19 @@ ul{
     list-style: none;
 }
 /*Site nav*/
-.site-nav .link{
-    color: #212121;
+.site-nav{
+    color: var(--title-text-color);
 }
-.section-title{
-    color: #212121;
+.nav-logo{
+    color: #000000;
 }
+.nav-logo>span{
+    color: var(--accent-color);
+}
+.link{
+    color: var(--title-text-color);
+}
+
 /*Hero*/
 
 /*Features*/
