@@ -84,6 +84,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .hero-section-btn{
+    cursor: pointer;
     color: #FFFFFF;
     background-color: var(--accent-color);
 
@@ -166,6 +167,7 @@ color: var(--footer-contact);
 background-color: var(--secondary-background-color);
 }
 .portfolio-btn {
+    cursor: pointer;
     background-color: #f5f4fa;
 
     font-family: Roboto;
@@ -173,6 +175,10 @@ background-color: var(--secondary-background-color);
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+}
+.portfolio-btn-active{
+    color: #ffffff;
+    background-color: var(--accent-color);
 }
 
 .portfolio-btn:hover,
