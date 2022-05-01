@@ -162,6 +162,7 @@ letter-spacing: 0.03em;
 }
 .footer-contact{
 color: var(--footer-contact);
+font-style: normal;
 }
 .portfolio-hero{
 background-color: var(--secondary-background-color);
@@ -179,6 +180,12 @@ background-color: var(--secondary-background-color);
 .portfolio-btn-active{
     color: #ffffff;
     background-color: var(--accent-color);
+
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-btn:hover,
@@ -188,13 +195,18 @@ background-color: var(--secondary-background-color);
 }
 .project-name{
     color: var(--secondary-text-color);
+
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .project-description{
 color: var(--primary-text-color);
+
+font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.1;
+line-height: 1.87;
 }
